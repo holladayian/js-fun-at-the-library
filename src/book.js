@@ -7,13 +7,9 @@ createTitle("Dancing Sushi");
 createTitle("Dragon in the Summer");
 createTitle("Teenage Ghoul");
 
-function buildMainCharacter(name, age, pronouns) {
-  this.name = name;
-  this.age = age;
-  this.pronouns = pronouns;
-
+function buildMainCharacter() {
+return {name: "Vassya", age: 16, pronouns: "she/her"};
 }
-var ghoulCharacter = new buildMainCharacter("Vassya", 16, "she/her");
 
 
 
