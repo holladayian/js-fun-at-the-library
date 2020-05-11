@@ -1,7 +1,13 @@
+function shelfBook(book, shelf) {
+  return {
 
+  shelf: scifiShelf.push(shelf),
+  book: book,
+  };
+}
 
 module.exports = {
-  // shelfBook: shelfBook,
+  shelfBook: shelfBook,
   // unshelfBook: unshelfBook,
   // listTitles: listTitles,
   // searchShelf: searchShelf
